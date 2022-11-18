@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <img class="logo" src="Images/Etherium Icon.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Certification</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <a href="signup.html"><img class="user" src="Images/User Icon.png"></a>
+    </div>
+    <div class="container2">
+        <h1>Sign In</h1>
+        <div class="form">
+            <form >
+            <input id="email" type="email" placeholder="Email" required>
+            <input id="pass" type="password" placeholder="Password" required>
+            <input id="btn" type="button" value="Sign In" >
+            <input type="checkbox">
+            <label>Remember Me</label>
+            </form>
+        </div>
+        <div class="new_user">
+            <p id="para">New To HashDefine? <a style="color:red; cursor:pointer;" class="sign-up" href="register.html">Sign Up</a> Now!</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Script For Firebase Module -->
+<script type="module" src="signup.js"></script>
+</body>
+</html>
